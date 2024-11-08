@@ -22,57 +22,100 @@
   background-color: #003459;
 }
 
-.banner {
+header {
+  background-color: #fceed5;
+}
+
+.header-nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.header-nav__items {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav__items a {
+  font-size: 9.58px;
+  font-weight: 700;
+  line-height: 14.36px;
+  color: black;
+  text-decoration: none;
+}
+.header-nav__search {
+  display: flex;
+  align-items: center;
+  align-items: stretch;
+  border-radius: 50px;
+  background-color: white;
+  overflow: hidden;
+  width: 200px;
+  padding: 5px 10px;
+}
+.header-nav__search input {
+  border: none;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.header-nav__search i {
+  margin-top: 3px;
+}
+.header-nav button {
+  width: 100px;
+}
+
+header .banner {
   display: flex;
   justify-content: space-between;
   align-items: end;
   background-color: #fceed5;
   padding: 0 7em;
 }
-.banner__image {
+header .banner__image {
   width: 305px;
   height: 205px;
 }
-.banner__text {
+header .banner__text {
   text-align: right;
   margin-right: 3em;
   margin-bottom: 25px;
 }
-.banner__text__title {
+header .banner__text__title {
   font-size: 31.12px;
   font-weight: 800;
   line-height: 40.7px;
 }
-.banner__text__subtitle {
+header .banner__text__subtitle {
   font-size: 21.55px;
   font-weight: 700;
   line-height: 32.32px;
 }
-.banner__text__description {
+header .banner__text__description {
   width: 230px;
   font-size: 7.18px;
   font-weight: 500;
   line-height: 10.77px;
 }
-.banner__text__buttons {
+header .banner__text__buttons {
   margin-top: 10px;
 }
-.banner__image {
+header .banner__image {
   width: 484.77px;
   height: 356.09px;
 }
-.banner__text {
+header .banner__text {
   margin-bottom: 20%;
 }
-.banner__text__title {
+header .banner__text__title {
   font-size: 35.91px;
   font-weight: 800;
 }
-.banner__text__subtitle {
+header .banner__text__subtitle {
   font-size: 27.53px;
   font-weight: 700;
 }
-.banner__text__description {
+header .banner__text__description {
   font-size: 7.18px;
   font-weight: 500;
 }
