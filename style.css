@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 header {
   background-color: #fceed5;
 }
@@ -228,7 +225,7 @@ main {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  transition: 0.5;
+  transition: 0.3s;
 }
 .block__text {
   padding: 10px;
@@ -321,12 +318,13 @@ main .banner__text__description {
   border-radius: 25px;
   color: white;
   background-color: #00a7e7;
-  width: 50px;
+  width: 75px;
   height: 12px;
 }
 .bigger-block__title {
   font-size: 1.125rem;
   font-weight: 700;
+  margin: 5px 0;
 }
 .bigger-block__description {
   font-size: 1rem;

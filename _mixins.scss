@@ -1,11 +1,21 @@
 @use'variables';
 
-@mixin button-style {
+@mixin button-style($type: 'light') {
   padding: 7.18px 16.76px;
   border-radius: 34.11px;
   border: solid 2px;
   transition: 0.3s;
+
+  &:hover {
+    @if $type == 'light' {
+      color: white;
+      background-color: $highlight-color;
+    } @else if $type == 'dark' {
+      background-color: $highlight-color;
+    }
+  }
 }
+
 
 @mixin banner-base {
   display: flex;
