@@ -81,10 +81,15 @@ header .banner__text__title {
 header .banner__text__subtitle {
   font-size: 36px;
   font-weight: 700;
+  margin: 10px 0;
 }
 header .banner__text__description {
   font-size: 1rem;
   font-weight: 500;
+  margin: 10px 0;
+}
+header .banner__text__buttons {
+  margin-top: 1em;
 }
 
 footer {
@@ -296,8 +301,12 @@ main .banner__image {
 main .banner__text {
   text-align: right;
 }
+main .banner__text__subtitle {
+  margin: 10px 0;
+}
 main .banner__text__description {
   width: 400px;
+  margin: 10px 0;
 }
 
 .bigger-block {

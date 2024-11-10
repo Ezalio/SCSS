@@ -117,8 +117,12 @@ main .banner {
 
   &__text {
     text-align: right;
+    &__subtitle {
+      margin: 10px 0;
+    }
     &__description {
       width: 400px;
+      margin: 10px 0;
     }
   }
 }

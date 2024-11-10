@@ -65,10 +65,15 @@ header .banner {
     &__subtitle {
       font-size: $font-main-subtitle;
       font-weight: 700;
+      margin: 10px 0;
     }
     &__description {
       font-size: $font-size-small;
       font-weight: 500;
+      margin: 10px 0;
+    }
+    &__buttons {
+      margin-top: 1em;
     }
   }
 }
